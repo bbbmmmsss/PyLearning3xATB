@@ -1,0 +1,9 @@
+print(3*1)
+print(3*2)
+num=90
+print(num*1)
+print(num*2)
+print(num*3)
+print(f'{num}*1={num*1}')
+print(f'{num}*2={num*2}')
+print(f'{num}*3={num*3}')
