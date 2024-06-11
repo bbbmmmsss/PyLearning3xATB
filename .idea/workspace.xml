@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Second Day">
-      <change afterPath="$PROJECT_DIR$/Date-7 June/Eith08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/Eleven11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/Forteen14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/Nine09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/Ten10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/Twelve12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/eighteen18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/fiften15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/seventeen17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/sixten16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-7 June/thirteen13.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Third Day">
+      <change afterPath="$PROJECT_DIR$/Date-9 June/Ninteen19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/Twenty20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/TwentyFive25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/TwentySeven27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/TwentySix26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/TwentyThree23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/TwintyFour24.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/Twintyone21.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-9 June/Twintytwo22.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,14 @@
     "Python.SeventhP07.executor": "Run",
     "Python.TP03.executor": "Run",
     "Python.Ten10.executor": "Run",
+    "Python.Thirteen13.executor": "Run",
     "Python.Twelve12.executor": "Run",
+    "Python.TwentyFive25.executor": "Run",
+    "Python.TwentySeven27.executor": "Run",
+    "Python.TwentySix26.executor": "Run",
+    "Python.TwentyThree23.executor": "Run",
+    "Python.TwintyFour.executor": "Run",
+    "Python.Twintyone21.executor": "Run",
     "Python.fiften15.executor": "Run",
     "Python.seventeen17.executor": "Run",
     "Python.sixten16.executor": "Run",
@@ -119,13 +124,22 @@
       <option name="project" value="LOCAL" />
       <updated>1717615268844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Third Day">
+      <option name="closed" value="true" />
+      <created>1717877120149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717877120149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Day" />
     <MESSAGE value="First Day1" />
     <MESSAGE value="Second Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Day" />
+    <MESSAGE value="Third Day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Day" />
   </component>
 </project>
