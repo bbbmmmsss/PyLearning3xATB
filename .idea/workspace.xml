@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Fourth Day">
-      <change afterPath="$PROJECT_DIR$/Task1/TheoryQuestion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/Print First Number is Greater Or Not.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/Print Square &amp; Cube.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question">
+      <change afterPath="$PROJECT_DIR$/Task1/GreaterThan Or Not.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task1/Square &amp; Cube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/Factorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/Fibonaci series.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/Leap Year Or Not.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task2/TriangalClassifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Print First Number is Greater Or Not.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Print Square &amp; Cube.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +59,24 @@
     "Python.Eleven11.executor": "Run",
     "Python.FP01.executor": "Run",
     "Python.FP04.executor": "Run",
+    "Python.Factorial.executor": "Run",
+    "Python.Fibonaci series.executor": "Run",
     "Python.FifthP05.executor": "Run",
     "Python.Forteen14.executor": "Run",
+    "Python.GreaterThan Or Not.executor": "Run",
+    "Python.Leap Year Or Not.executor": "Run",
     "Python.Nine09.executor": "Run",
+    "Python.Print First Number is Greater Or Not.executor": "Run",
+    "Python.Print Square & Cube.executor": "Run",
     "Python.SP02.executor": "Run",
     "Python.SP06.executor": "Run",
     "Python.SeventhP07.executor": "Run",
+    "Python.Square & Cube.executor": "Run",
     "Python.TP03.executor": "Run",
     "Python.Ten10.executor": "Run",
+    "Python.TheoryQuestion.executor": "Run",
     "Python.Thirteen13.executor": "Run",
+    "Python.TriangalClassifier.executor": "Run",
     "Python.Twelve12.executor": "Run",
     "Python.TwentyFive25.executor": "Run",
     "Python.TwentySeven27.executor": "Run",
@@ -134,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718129680462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task Question">
+      <option name="closed" value="true" />
+      <created>1718130034182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718130034182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +165,7 @@
     <MESSAGE value="Second Day" />
     <MESSAGE value="Third Day" />
     <MESSAGE value="Fourth Day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth Day" />
+    <MESSAGE value="Task Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question" />
   </component>
 </project>
