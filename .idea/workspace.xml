@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 2">
-      <change afterPath="$PROJECT_DIR$/Date-12June/Thirty30.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtyFive35.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtyFour34.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtyOne31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtySix36.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtyThree33.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtyTwo32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/TwentyEight28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/TwentyNine29June.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 4">
+      <change afterPath="$PROJECT_DIR$/Date 14 June/Fourty40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyFive45.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyFour44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyOne41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyThree43.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyTwo42.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/ThirtyEight38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 14 June/ThirtyNine39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtySeven37.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Date-12June/TwentyEight28.py" beforeDir="false" afterPath="$PROJECT_DIR$/Date-12June/TwentyEight28.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,12 @@
     "Python.Fibonaci series.executor": "Run",
     "Python.FifthP05.executor": "Run",
     "Python.Forteen14.executor": "Run",
+    "Python.Fourty40.executor": "Run",
+    "Python.FourtyFive45.executor": "Run",
+    "Python.FourtyFour44.executor": "Run",
+    "Python.FourtyOne41.executor": "Run",
+    "Python.FourtyThree43.executor": "Run",
+    "Python.FourtyTwo42.executor": "Run",
     "Python.GreaterThan Or Not.executor": "Run",
     "Python.Leap Year Or Not.executor": "Run",
     "Python.Nine09.executor": "Run",
@@ -78,9 +85,12 @@
     "Python.TheoryQuestion.executor": "Run",
     "Python.Thirteen13.executor": "Run",
     "Python.Thirty30.executor": "Run",
+    "Python.ThirtyEight38.executor": "Run",
     "Python.ThirtyFive35.executor": "Run",
     "Python.ThirtyFour34.executor": "Run",
+    "Python.ThirtyNine39.executor": "Run",
     "Python.ThirtyOne31.executor": "Run",
+    "Python.ThirtySeven37.executor": "Run",
     "Python.ThirtySix36.executor": "Run",
     "Python.ThirtyThree33.executor": "Run",
     "Python.ThirtyTwo.executor": "Run",
@@ -174,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718211626497</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Task Question day 4">
+      <option name="closed" value="true" />
+      <created>1718216913450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718216913450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +203,7 @@
     <MESSAGE value="Fourth Day" />
     <MESSAGE value="Task Question" />
     <MESSAGE value="Task Question day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 2" />
+    <MESSAGE value="Task Question day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 4" />
   </component>
 </project>
