@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 4">
-      <change afterPath="$PROJECT_DIR$/Date 14 June/Fourty40.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyFive45.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyFour44.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyOne41.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyThree43.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/FourtyTwo42.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/ThirtyEight38.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date 14 June/ThirtyNine39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-12June/ThirtySeven37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/Fifty50.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/FiftyOne51.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/FourtyEight48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/FourtyNine49.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/FourtySeven47.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/FourtySix46.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/Program/FiftyThree53.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 17 June/Program/FiftyTwo52.PY.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Date-12June/TwentyEight28.py" beforeDir="false" afterPath="$PROJECT_DIR$/Date-12June/TwentyEight28.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +62,19 @@
     "Python.Factorial.executor": "Run",
     "Python.Fibonaci series.executor": "Run",
     "Python.FifthP05.executor": "Run",
+    "Python.Fifty50.executor": "Run",
+    "Python.FiftyOne51.executor": "Run",
+    "Python.FiftyThree53.executor": "Run",
+    "Python.FiftyTwo52.PY.executor": "Run",
     "Python.Forteen14.executor": "Run",
     "Python.Fourty40.executor": "Run",
+    "Python.FourtyEight48.executor": "Run",
     "Python.FourtyFive45.executor": "Run",
     "Python.FourtyFour44.executor": "Run",
+    "Python.FourtyNine49.executor": "Run",
     "Python.FourtyOne41.executor": "Run",
+    "Python.FourtySeven47.executor": "Run",
+    "Python.FourtySix46.executor": "Run",
     "Python.FourtyThree43.executor": "Run",
     "Python.FourtyTwo42.executor": "Run",
     "Python.GreaterThan Or Not.executor": "Run",
@@ -192,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718216913450</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task Question day 4">
+      <option name="closed" value="true" />
+      <created>1718638420755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718638420755</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
