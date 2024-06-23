@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 5">
-      <change afterPath="$PROJECT_DIR$/Date-19 June/FiftyEight58.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/FiftyFour54.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/FiftyNine59.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/FiftySeven57.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/FiftySix56.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/Fiftyfive55.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/Sixty60.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/SixtyFour64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/SixtyOne61.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/SixtyThree63.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-19 June/SixtyTwo62.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 6">
+      <change afterPath="$PROJECT_DIR$/Date-21 June/Seventy70.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-21 June/SeventyOne71.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtyEight68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtyFive65.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtyNine69.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtySeven67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtySix66.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +90,16 @@
     "Python.SP02.executor": "Run",
     "Python.SP06.executor": "Run",
     "Python.SeventhP07.executor": "Run",
+    "Python.Seventy70.executor": "Run",
+    "Python.SeventyOne71.executor": "Run",
     "Python.Sixty60.executor": "Run",
+    "Python.SixtyEight68.executor": "Run",
+    "Python.SixtyFive65.executor": "Run",
+    "Python.SixtyFour64.executor": "Run",
+    "Python.SixtyNine69.executor": "Run",
     "Python.SixtyOne61.executor": "Run",
+    "Python.SixtySeven67.executor": "Run",
+    "Python.SixtySix66.executor": "Run",
     "Python.SixtyThree63.executor": "Run",
     "Python.SixtyTwo62.executor": "Run",
     "Python.Square & Cube.executor": "Run",
@@ -227,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718819340681</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task Question day 6">
+      <option name="closed" value="true" />
+      <created>1719060653558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719060653558</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,6 +252,7 @@
     <MESSAGE value="Task Question day 2" />
     <MESSAGE value="Task Question day 4" />
     <MESSAGE value="Task Question day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 5" />
+    <MESSAGE value="Task Question day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 6" />
   </component>
 </project>
