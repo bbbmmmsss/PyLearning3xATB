@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 6">
-      <change afterPath="$PROJECT_DIR$/Date-21 June/Seventy70.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-21 June/SeventyOne71.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtyEight68.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtyFive65.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtyNine69.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtySeven67.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-21 June/SixtySix66.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 7">
+      <change afterPath="$PROJECT_DIR$/Task 3/Count vowels&amp; consununt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task 3/Palandrom or not.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task 3/Star Triangel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task 3/String Reverse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Count vowels& consununt.executor": "Run",
     "Python.Eith08.executor": "Run",
     "Python.Eleven11.executor": "Run",
     "Python.FP01.executor": "Run",
@@ -85,6 +83,7 @@
     "Python.GreaterThan Or Not.executor": "Run",
     "Python.Leap Year Or Not.executor": "Run",
     "Python.Nine09.executor": "Run",
+    "Python.Palandrom or not.executor": "Run",
     "Python.Print First Number is Greater Or Not.executor": "Run",
     "Python.Print Square & Cube.executor": "Run",
     "Python.SP02.executor": "Run",
@@ -103,6 +102,8 @@
     "Python.SixtyThree63.executor": "Run",
     "Python.SixtyTwo62.executor": "Run",
     "Python.Square & Cube.executor": "Run",
+    "Python.Star Triangel.executor": "Run",
+    "Python.String Reverse.executor": "Run",
     "Python.TP03.executor": "Run",
     "Python.Ten10.executor": "Run",
     "Python.TheoryQuestion.executor": "Run",
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719060653558</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Task Question day 7">
+      <option name="closed" value="true" />
+      <created>1719144916555</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719144916555</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,6 +262,7 @@
     <MESSAGE value="Task Question day 4" />
     <MESSAGE value="Task Question day 5" />
     <MESSAGE value="Task Question day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 6" />
+    <MESSAGE value="Task Question day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 7" />
   </component>
 </project>
