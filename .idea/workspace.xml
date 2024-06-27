@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 8">
-      <change afterPath="$PROJECT_DIR$/Date-24 June/SeventyFive75.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-24 June/SeventyFour74.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-24 June/SeventySix76.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-24 June/SeventyThree73.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-24 June/SeventyTwo72.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 9">
+      <change afterPath="$PROJECT_DIR$/Date-26 June/SeventySeven77.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 3/Anagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task 3/Anagrams.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +91,7 @@
     "Python.SeventyFive75.executor": "Run",
     "Python.SeventyFour74.executor": "Run",
     "Python.SeventyOne71.executor": "Run",
+    "Python.SeventySeven77.executor": "Run",
     "Python.SeventySix76.executor": "Run",
     "Python.SeventyThree73.executor": "Run",
     "Python.SeventyTwo72.executor": "Run",
@@ -264,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719146770098</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Task Question day 9">
+      <option name="closed" value="true" />
+      <created>1719246757575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719246757575</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -280,6 +284,7 @@
     <MESSAGE value="Task Question day 6" />
     <MESSAGE value="Task Question day 7" />
     <MESSAGE value="Task Question day 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 8" />
+    <MESSAGE value="Task Question day 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 9" />
   </component>
 </project>
