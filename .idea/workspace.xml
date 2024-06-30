@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 9">
-      <change afterPath="$PROJECT_DIR$/Date-26 June/SeventySeven77.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 10">
+      <change afterPath="$PROJECT_DIR$/Date-28 June/Eighty80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyFour84.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyOne81.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyThree83.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyTwo82.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-28 June/SeventyEight78.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-28 June/SeventyNine79.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +56,11 @@
   "keyToString": {
     "Python.Anagrams.executor": "Run",
     "Python.Count vowels& consununt.executor": "Run",
+    "Python.Eighty80.executor": "Run",
+    "Python.EightyFour84.executor": "Run",
+    "Python.EightyOne81.executor": "Run",
+    "Python.EightyThree83.executor": "Run",
+    "Python.EightyTwo82.executor": "Run",
     "Python.Eith08.executor": "Run",
     "Python.Eleven11.executor": "Run",
     "Python.FP01.executor": "Run",
@@ -88,8 +99,10 @@
     "Python.SP06.executor": "Run",
     "Python.SeventhP07.executor": "Run",
     "Python.Seventy70.executor": "Run",
+    "Python.SeventyEight78.executor": "Run",
     "Python.SeventyFive75.executor": "Run",
     "Python.SeventyFour74.executor": "Run",
+    "Python.SeventyNine79.executor": "Run",
     "Python.SeventyOne71.executor": "Run",
     "Python.SeventySeven77.executor": "Run",
     "Python.SeventySix76.executor": "Run",
@@ -268,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719246757575</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task Question day 10">
+      <option name="closed" value="true" />
+      <created>1719500594772</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719500594772</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,6 +306,7 @@
     <MESSAGE value="Task Question day 7" />
     <MESSAGE value="Task Question day 8" />
     <MESSAGE value="Task Question day 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 9" />
+    <MESSAGE value="Task Question day 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 10" />
   </component>
 </project>
