@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 10">
-      <change afterPath="$PROJECT_DIR$/Date-28 June/Eighty80.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyFour84.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyOne81.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyThree83.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-28 June/EightyTwo82.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-28 June/SeventyEight78.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-28 June/SeventyNine79.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 11">
+      <change afterPath="$PROJECT_DIR$/Date-1 July/EightyEight 88.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/EightyFive 85.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/EightyNine 89.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/EightySeven 87.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/EighySix 86.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/Ninty 90.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/Ninty One 91.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date-1 July/Ninty two 92.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,10 +58,15 @@
     "Python.Anagrams.executor": "Run",
     "Python.Count vowels& consununt.executor": "Run",
     "Python.Eighty80.executor": "Run",
+    "Python.EightyEight 88.executor": "Run",
+    "Python.EightyFive 85.executor": "Run",
     "Python.EightyFour84.executor": "Run",
+    "Python.EightyNine 89.executor": "Run",
     "Python.EightyOne81.executor": "Run",
+    "Python.EightySeven 87.executor": "Run",
     "Python.EightyThree83.executor": "Run",
     "Python.EightyTwo82.executor": "Run",
+    "Python.EighySix 86.executor": "Run",
     "Python.Eith08.executor": "Run",
     "Python.Eleven11.executor": "Run",
     "Python.FP01.executor": "Run",
@@ -92,6 +98,9 @@
     "Python.GreaterThan Or Not.executor": "Run",
     "Python.Leap Year Or Not.executor": "Run",
     "Python.Nine09.executor": "Run",
+    "Python.Ninty 90.executor": "Run",
+    "Python.Ninty One 91.executor": "Run",
+    "Python.Ninty two 92.executor": "Run",
     "Python.Palandrom or not.executor": "Run",
     "Python.Print First Number is Greater Or Not.executor": "Run",
     "Python.Print Square & Cube.executor": "Run",
@@ -289,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719500594772</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Task Question day 11">
+      <option name="closed" value="true" />
+      <created>1719764857339</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719764857339</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,6 +324,7 @@
     <MESSAGE value="Task Question day 8" />
     <MESSAGE value="Task Question day 9" />
     <MESSAGE value="Task Question day 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 10" />
+    <MESSAGE value="Task Question day 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 11" />
   </component>
 </project>
