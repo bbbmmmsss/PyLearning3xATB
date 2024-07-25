@@ -1,0 +1,451 @@
+{
+	"info": {
+		"_postman_id": "e49b4778-59a5-4372-9cd6-d198087045da",
+		"name": "API Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28617420",
+		"_collection_link": "https://blue-equinox-938972.postman.co/workspace/20f017d6-6e6a-4677-887e-dabb476c7fd9/collection/28617420-e49b4778-59a5-4372-9cd6-d198087045da?action=share&source=collection_link&creator=28617420"
+	},
+	"item": [
+		{
+			"name": "Octopus",
+			"item": [
+				{
+					"name": "Api call and enter phone number",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://13.235.124.3:8090/api/message/otp?phone=8208856902\n",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8090",
+							"path": [
+								"api",
+								"message",
+								"otp"
+							],
+							"query": [
+								{
+									"key": "phone",
+									"value": "8208856902\n"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "generate token",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "A",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phone",
+									"value": "8208856902",
+									"type": "text"
+								},
+								{
+									"key": "otp",
+									"value": "NzI3MzM3",
+									"type": "text"
+								},
+								{
+									"key": "device_id",
+									"value": "384fee1f1f79468f",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://13.235.124.3:8090/api/token\n",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8090",
+							"path": [
+								"api",
+								"token\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BJS Connect",
+			"item": [
+				{
+					"name": "send request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://13.235.124.3:8070/api/message/otp?phone=8208856902",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8070",
+							"path": [
+								"api",
+								"message",
+								"otp"
+							],
+							"query": [
+								{
+									"key": "phone",
+									"value": "8208856902"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get token",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://13.235.124.3:8070/api/token?phone=8208856902&otp=ODI5MDIy",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8070",
+							"path": [
+								"api",
+								"token"
+							],
+							"query": [
+								{
+									"key": "phone",
+									"value": "8208856902"
+								},
+								{
+									"key": "otp",
+									"value": "ODI5MDIy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API configuration",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImMyZTk2MDg5OWVhMWY3YjNkMmYzZmQ3NjRmNWQ0ZjQ2ZTA5Y2YzM2VjMGNjN2YyN2QzMjMyY2ViZjA0YmI3MTMwOGQ2OGUyZGUwZjdmNTcyIn0.eyJhdWQiOiI1ZDZmZGI1YzVkZGE3NjY3MTY1YjlkMzQiLCJqdGkiOiJjMmU5NjA4OTllYTFmN2IzZDJmM2ZkNzY0ZjVkNGY0NmUwOWNmMzNlYzBjYzdmMjdkMzIzMmNlYmYwNGJiNzEzMDhkNjhlMmRlMGY3ZjU3MiIsImlhdCI6MTY5MjM0MjI5OSwibmJmIjoxNjkyMzQyMjk5LCJleHAiOjE3MjM5NjQ2OTksInN1YiI6IjYyZThiOGU1MDYxYjg5NTRkMjE5Yzk0MiIsInNjb3BlcyI6WyIqIl19.UzajEN4oX8HC8GUyLKjrcU0EhJAEf4WVbggjPkyxzYAcoy5OyVdCFEiTCRENjM_8PtScAGXJ6KfL-HGc8HiM7nS2H09Bz8N4GMhuKmfGiWdjhjhH4OocwlOafiBK7-E9-ESKrZ4Q_G6pSX90OmA1Mys2b99omwFrWSE_aL3gWKRTugIYrqYGSxFp4S63oC2rq6s6LVpiz1vuUq0jOjftD_kto0hFuh0k0JOVlzbvg8_vtepJJsCbFY_npossgA06pcf6_witvx5RbVhpn2IdmX-SRS9fUusX7rZjwaiOipmXBcdB9wex4pR-mjN-7eQI08x7Z692BMRnqXEo9zuwq6r6OxNqrlqVeQcrVtwg1270KXzTP4R-A4XGSD7GBgLU_0vHLTDCakZFhQr1dBBb0ACKLEuQb7IdtiYYlAox_E-BMQuBX9sQrtkFHisFLWmVio0ZMeat3uVXs3MLpVdwwa-Uwijc0uCTIkRPM4kcpIlU_C_Fo3bXKgZ165owkRPYQolFRAj7S5MMHEPZLKk8nKb04o0kC83vIPu9aXH8S32brxw36cDp2nu3i2GZ35Hb2IStFUfEDTLRUGUidTRIdh-sXliU0UQo6X1wEI2k4PBHNHuulZQEwomroqDfYJSoMNjlnb9ANeq6ImFuJor5VUTtq2FlLIqhhO48KrCQWX4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://13.235.124.3:8070/api/configuration",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8070",
+							"path": [
+								"api",
+								"configuration"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Firebase",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImMyZTk2MDg5OWVhMWY3YjNkMmYzZmQ3NjRmNWQ0ZjQ2ZTA5Y2YzM2VjMGNjN2YyN2QzMjMyY2ViZjA0YmI3MTMwOGQ2OGUyZGUwZjdmNTcyIn0.eyJhdWQiOiI1ZDZmZGI1YzVkZGE3NjY3MTY1YjlkMzQiLCJqdGkiOiJjMmU5NjA4OTllYTFmN2IzZDJmM2ZkNzY0ZjVkNGY0NmUwOWNmMzNlYzBjYzdmMjdkMzIzMmNlYmYwNGJiNzEzMDhkNjhlMmRlMGY3ZjU3MiIsImlhdCI6MTY5MjM0MjI5OSwibmJmIjoxNjkyMzQyMjk5LCJleHAiOjE3MjM5NjQ2OTksInN1YiI6IjYyZThiOGU1MDYxYjg5NTRkMjE5Yzk0MiIsInNjb3BlcyI6WyIqIl19.UzajEN4oX8HC8GUyLKjrcU0EhJAEf4WVbggjPkyxzYAcoy5OyVdCFEiTCRENjM_8PtScAGXJ6KfL-HGc8HiM7nS2H09Bz8N4GMhuKmfGiWdjhjhH4OocwlOafiBK7-E9-ESKrZ4Q_G6pSX90OmA1Mys2b99omwFrWSE_aL3gWKRTugIYrqYGSxFp4S63oC2rq6s6LVpiz1vuUq0jOjftD_kto0hFuh0k0JOVlzbvg8_vtepJJsCbFY_npossgA06pcf6_witvx5RbVhpn2IdmX-SRS9fUusX7rZjwaiOipmXBcdB9wex4pR-mjN-7eQI08x7Z692BMRnqXEo9zuwq6r6OxNqrlqVeQcrVtwg1270KXzTP4R-A4XGSD7GBgLU_0vHLTDCakZFhQr1dBBb0ACKLEuQb7IdtiYYlAox_E-BMQuBX9sQrtkFHisFLWmVio0ZMeat3uVXs3MLpVdwwa-Uwijc0uCTIkRPM4kcpIlU_C_Fo3bXKgZ165owkRPYQolFRAj7S5MMHEPZLKk8nKb04o0kC83vIPu9aXH8S32brxw36cDp2nu3i2GZ35Hb2IStFUfEDTLRUGUidTRIdh-sXliU0UQo6X1wEI2k4PBHNHuulZQEwomroqDfYJSoMNjlnb9ANeq6ImFuJor5VUTtq2FlLIqhhO48KrCQWX4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "firebase_id\":\"fyXRFPe9QW660Flssjg-Bt:APA91bHqWBpjmGLJMrkuBGufaonQZwxCdpGNRkyt4tjBoWwd59YnfQgp0ztfTeDwOmY85FR_ogVOMIP0cnFbuJkjXbKrcwX8DZygpFjg_lFxv0BxtjSXoVGXFRTKHB8pvjCJezjVmiaA"
+						},
+						"url": {
+							"raw": "http://13.235.124.3:8070/api/updateFirebaseId",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8070",
+							"path": [
+								"api",
+								"updateFirebaseId"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "app startupapi",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImMyZTk2MDg5OWVhMWY3YjNkMmYzZmQ3NjRmNWQ0ZjQ2ZTA5Y2YzM2VjMGNjN2YyN2QzMjMyY2ViZjA0YmI3MTMwOGQ2OGUyZGUwZjdmNTcyIn0.eyJhdWQiOiI1ZDZmZGI1YzVkZGE3NjY3MTY1YjlkMzQiLCJqdGkiOiJjMmU5NjA4OTllYTFmN2IzZDJmM2ZkNzY0ZjVkNGY0NmUwOWNmMzNlYzBjYzdmMjdkMzIzMmNlYmYwNGJiNzEzMDhkNjhlMmRlMGY3ZjU3MiIsImlhdCI6MTY5MjM0MjI5OSwibmJmIjoxNjkyMzQyMjk5LCJleHAiOjE3MjM5NjQ2OTksInN1YiI6IjYyZThiOGU1MDYxYjg5NTRkMjE5Yzk0MiIsInNjb3BlcyI6WyIqIl19.UzajEN4oX8HC8GUyLKjrcU0EhJAEf4WVbggjPkyxzYAcoy5OyVdCFEiTCRENjM_8PtScAGXJ6KfL-HGc8HiM7nS2H09Bz8N4GMhuKmfGiWdjhjhH4OocwlOafiBK7-E9-ESKrZ4Q_G6pSX90OmA1Mys2b99omwFrWSE_aL3gWKRTugIYrqYGSxFp4S63oC2rq6s6LVpiz1vuUq0jOjftD_kto0hFuh0k0JOVlzbvg8_vtepJJsCbFY_npossgA06pcf6_witvx5RbVhpn2IdmX-SRS9fUusX7rZjwaiOipmXBcdB9wex4pR-mjN-7eQI08x7Z692BMRnqXEo9zuwq6r6OxNqrlqVeQcrVtwg1270KXzTP4R-A4XGSD7GBgLU_0vHLTDCakZFhQr1dBBb0ACKLEuQb7IdtiYYlAox_E-BMQuBX9sQrtkFHisFLWmVio0ZMeat3uVXs3MLpVdwwa-Uwijc0uCTIkRPM4kcpIlU_C_Fo3bXKgZ165owkRPYQolFRAj7S5MMHEPZLKk8nKb04o0kC83vIPu9aXH8S32brxw36cDp2nu3i2GZ35Hb2IStFUfEDTLRUGUidTRIdh-sXliU0UQo6X1wEI2k4PBHNHuulZQEwomroqDfYJSoMNjlnb9ANeq6ImFuJor5VUTtq2FlLIqhhO48KrCQWX4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "lastUserStatusApiCalledDateTime\":1673333989389,\"lastAppConfigApiCalledDateTime\":1673333989231"
+						},
+						"url": {
+							"raw": "http://13.235.124.3:8070/api/appStartupApi",
+							"protocol": "http",
+							"host": [
+								"13",
+								"235",
+								"124",
+								"3"
+							],
+							"port": "8070",
+							"path": [
+								"api",
+								"appStartupApi"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SOAP Request",
+			"item": [
+				{
+					"name": "TC-1 Number Conversion(Positive Testing)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/soap+xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\r\n      <ubiNum>700</ubiNum>\r\n    </NumberToWords>\r\n  </soap:Body>\r\n</soap:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+							"protocol": "https",
+							"host": [
+								"www",
+								"dataaccess",
+								"com"
+							],
+							"path": [
+								"webservicesserver",
+								"NumberConversion.wso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TC-2 NC(Negative testing Special Character)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/soap+xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\r\n      <ubiNum>-1</ubiNum>\r\n    </NumberToWords>\r\n  </soap:Body>\r\n</soap:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+							"protocol": "https",
+							"host": [
+								"www",
+								"dataaccess",
+								"com"
+							],
+							"path": [
+								"webservicesserver",
+								"NumberConversion.wso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "(BUG)TC-3 NC(Negative testing with decimal number)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/soap+xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\r\n      <ubiNum>12.8</ubiNum>\r\n    </NumberToWords>\r\n  </soap:Body>\r\n</soap:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+							"protocol": "https",
+							"host": [
+								"www",
+								"dataaccess",
+								"com"
+							],
+							"path": [
+								"webservicesserver",
+								"NumberConversion.wso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BUG -TC-4 NC(Negative testing with Special Character)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/soap+xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\r\n      <ubiNum>#</ubiNum>\r\n    </NumberToWords>\r\n  </soap:Body>\r\n</soap:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+							"protocol": "https",
+							"host": [
+								"www",
+								"dataaccess",
+								"com"
+							],
+							"path": [
+								"webservicesserver",
+								"NumberConversion.wso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BUG -TC-5 NC(Negative testing with String)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/soap+xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\r\n      <ubiNum>Bhagyashree</ubiNum>\r\n    </NumberToWords>\r\n  </soap:Body>\r\n</soap:Envelope>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://www.dataaccess.com/webservicesserver/NumberConversion.wso",
+							"protocol": "https",
+							"host": [
+								"www",
+								"dataaccess",
+								"com"
+							],
+							"path": [
+								"webservicesserver",
+								"NumberConversion.wso"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
