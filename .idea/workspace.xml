@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 11">
-      <change afterPath="$PROJECT_DIR$/Date-1 July/EightyEight 88.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/EightyFive 85.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/EightyNine 89.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/EightySeven 87.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/EighySix 86.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/Ninty 90.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/Ninty One 91.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Date-1 July/Ninty two 92.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 12">
+      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_Lab1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_Lab10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_addition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_annotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_annotationallure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +52,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_Lab1.test_addition.executor": "Run",
+    "Python tests.Python tests for test_addition.test_addition.executor": "Run",
+    "Python tests.Python tests for test_lab100.test_subtraction.executor": "Run",
+    "Python tests.Python tests for test_pyt1.test_addition.executor": "Run",
+    "Python tests.Python tests for test_sub.test_subtraction.executor": "Run",
+    "Python tests.Python tests in test_Lab1.py.executor": "Run",
+    "Python tests.Python tests in test_pyt1.py.executor": "Run",
     "Python.Anagrams.executor": "Run",
     "Python.Count vowels& consununt.executor": "Run",
     "Python.Eighty80.executor": "Run",
@@ -159,9 +163,101 @@
     "Python.sixten16.executor": "Run",
     "Python.thirteen13.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/DELL/PycharmProjects/PyLearning3xATB/sampleTestCases"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\PyLearning3xATB\sampleTestCases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab1.test_addition">
+    <configuration name="Python tests for sampleTestCases.test_Lab1.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sampleTestCases.test_Lab1.test_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Lab1.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Lab1.test_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_addition.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_addition.test_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_lab100.test_subtraction" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lab100.test_subtraction&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_sub.test_subtraction" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sub.test_subtraction&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_Lab1.test_addition" />
+        <item itemvalue="Python tests.Python tests for sampleTestCases.test_Lab1.test_addition" />
+        <item itemvalue="Python tests.Python tests for test_lab100.test_subtraction" />
+        <item itemvalue="Python tests.Python tests for test_sub.test_subtraction" />
+        <item itemvalue="Python tests.Python tests for test_addition.test_addition" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -306,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719764857339</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Task Question day 11">
+      <option name="closed" value="true" />
+      <created>1719940536018</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719940536018</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
