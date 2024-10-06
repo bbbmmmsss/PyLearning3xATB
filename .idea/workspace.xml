@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Task Question day 12">
-      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_Lab1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_Lab10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_addition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_annotation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_annotationallure.py" afterDir="false" />
+    <list default="true" id="6fdf8008-b70c-41d4-a3c4-fe489def0061" name="Changes" comment="Pytest and allure report">
+      <change afterPath="$PROJECT_DIR$/Date 14 August/test_Lab04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 19 August/test_Exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 4 August/test_Lab80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 4 August/test_Lab81.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Date 4 August/test_SetUpandTearDown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orange HRM API Testing/FetchUserData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/test_Addnewuser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/test_Userlogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/test_Usermanagement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sampleTestCases/test_Lab02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -52,7 +59,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for Lab 80.test_comsume_1_2.executor": "Run",
+    "Python tests.Python tests for test_Addnewuser.test_user_login.executor": "Run",
+    "Python tests.Python tests for test_Lab02.test_addition.executor": "Run",
     "Python tests.Python tests for test_Lab1.test_addition.executor": "Run",
+    "Python tests.Python tests for test_Lab80.test_comsume_1_2.executor": "Run",
+    "Python tests.Python tests for test_Lab81.test_comsume_1_2.executor": "Run",
+    "Python tests.Python tests for test_SetUpandTearDown.test_i_need_confirm.executor": "Run",
+    "Python tests.Python tests for test_Userlogin.test_user_login.executor": "Run",
     "Python tests.Python tests for test_addition.test_addition.executor": "Run",
     "Python tests.Python tests for test_lab100.test_subtraction.executor": "Run",
     "Python tests.Python tests for test_pyt1.test_addition.executor": "Run",
@@ -76,6 +90,7 @@
     "Python.FP01.executor": "Run",
     "Python.FP04.executor": "Run",
     "Python.Factorial.executor": "Run",
+    "Python.FetchUserData.executor": "Run",
     "Python.Fibonaci series.executor": "Run",
     "Python.FifthP05.executor": "Run",
     "Python.Fifty50.executor": "Run",
@@ -164,31 +179,55 @@
     "Python.thirteen13.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/DELL/PycharmProjects/PyLearning3xATB/sampleTestCases"
+    "last_opened_file_path": "C:/Users/DELL/PycharmProjects/PyLearning3xATB/Date 4 August",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\PyLearning3xATB\Date 4 August" />
       <recent name="C:\Users\DELL\PycharmProjects\PyLearning3xATB\sampleTestCases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Lab1.test_addition">
-    <configuration name="Python tests for sampleTestCases.test_Lab1.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.FetchUserData">
+    <configuration name="FetchUserData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Orange HRM API Testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Orange HRM API Testing/FetchUserData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Addnewuser.test_user_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyLearning3xATB" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sampleTestCases.test_Lab1.test_addition&quot;" />
+      <option name="_new_target" value="&quot;test_Addnewuser.test_user_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Lab1.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Lab02.test_addition" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyLearning3xATB" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,7 +238,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab1.test_addition&quot;" />
+      <option name="_new_target" value="&quot;test_Lab02.test_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_Userlogin.test_user_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyLearning3xATB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Userlogin.test_user_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -218,43 +272,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_lab100.test_subtraction" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PyLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_lab100.test_subtraction&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_sub.test_subtraction" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PyLearning3xATB" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sampleTestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sub.test_subtraction&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Lab1.test_addition" />
-        <item itemvalue="Python tests.Python tests for sampleTestCases.test_Lab1.test_addition" />
-        <item itemvalue="Python tests.Python tests for test_lab100.test_subtraction" />
-        <item itemvalue="Python tests.Python tests for test_sub.test_subtraction" />
+        <item itemvalue="Python.FetchUserData" />
+        <item itemvalue="Python tests.Python tests for test_Addnewuser.test_user_login" />
+        <item itemvalue="Python tests.Python tests for test_Userlogin.test_user_login" />
         <item itemvalue="Python tests.Python tests for test_addition.test_addition" />
+        <item itemvalue="Python tests.Python tests for test_Lab02.test_addition" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719940536018</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pytest and allure report">
+      <option name="closed" value="true" />
+      <created>1721922379483</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721922379483</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -429,6 +461,17 @@
     <MESSAGE value="Task Question day 9" />
     <MESSAGE value="Task Question day 10" />
     <MESSAGE value="Task Question day 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task Question day 11" />
+    <MESSAGE value="Pytest and allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pytest and allure report" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sampleTestCases/test_Lab1.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
